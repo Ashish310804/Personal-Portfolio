@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ashish Dwivedi's Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6Rz685Y5lkN683URm5out19jalO33763dgMDCNp1IB96531fW6xymi5O3Rmbmin"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playwrite+IE:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="green-glow-bg"></div>
+    <div class="menu-overlay"></div>
+    <aside class="sidebar-menu" aria-hidden="true">
+        <button class="close-menu-btn" aria-label="Close menu">Close</button>
+        <nav class="sidebar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </aside>
+
+
+
+
+    <header>
+        <div class="brand-name">Ashish's Portfolio</div>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">Menu --</button>
+    </header>
+    <main class="hero-section" id="home">
+        <div class="hero-content">
+            <p class="hero-greeting">Hey 👋, I'm a Full Stack Developer</p>
+            <h1 class="hero-main-name">ASHISH DWIVEDI</h1>
+            <img src="image.png" class="portrait-img" alt="Ashish Dwivedi portrait">
+        </div>
+    </main>
+
+
+
+
+    <footer class="container-fluid" id="contact">
+        <div class="row align-items-end">
+            <div class="col-md-6 contact-info">
+                Email:<a href="mailto:ashishdwivedi7654321@gmail.com">ashishdwivedi7654321@gmail.com</a><br>
+                Contact:<a href="tel:+9648608732">+91 964 860 8732</a>
+            </div>
+            <div class="col-md-6 footer-right-column">
+                <p class="bio-text">I build fast, scalable, and user-friendly web applications using modern JavaScript
+                    technologies. My main tools of choice are React on the frontend and Node.js on the backend.</p>
+                <ul class="social-links">
+                    <li><a href="https://linkedin.com/in/ashish-dwivedi3108" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.github.com/Ashish310804" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <section class="ticker-bar" aria-label="Skills ticker">
+        <div class="ticker-track">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>Express</span>
+            <span>RESTful APIs</span>
+            <span>DSA in Java</span>
+            <span>MySQL</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Python Libraries</span>
+            <span>VS Code</span>
+            <span>API Integration</span>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="projects-section" id="projects">
+        <div class="gallery">
+            <div class="panel active" style="background-image: url(AmazonClone.png)">
+                <h3>Amazon Clone</h3>
+            </div>
+            <div class="panel" style="background-image: url(LPG_Management_System.png)">
+                <h3>Household LPG Management System</h3>
+            </div>
+            <div class="panel" style="background-image: url(CurrencyConverter.png)">
+                <h3>Currency Converter</h3>
+            </div>
+            <div class="panel" style="background-image: url(PasswordGenerator.png)">
+                <h3>Random Password Generator</h3>
+            </div>
+            <div class="panel" style="background-image: url(RideNow.png)">
+                <h3>Online Vehicle Rental System</h3>
+            </div>
+            <div class="panel" style="background-image: url(StarRating.png)">
+                <h3>Star Rating Website</h3>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="info-strip">
+        <div class="info-card" id="about">
+            <div class="info-card-image">
+                <img src="image.png" alt="" loading="lazy">
+            </div>
+            <div class="info-card-content">
+                <p class="info-label">About</p>
+                <h2>Building modern digital experiences with clean code, sharp UI, and reliable backend systems.</h2>
+                <p class="info-description">I enjoy creating polished web applications that feel fast, intuitive, and
+                    production-ready from frontend to database.</p>
+            </div>
+        </div>
+        <div class="info-card" id="services">
+            <div class="info-card-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpNSUZQxyRVQdYcxw57MSm7uAH-BwF0NPCfA&s"
+                    alt="" loading="lazy">
+            </div>
+            <div class="info-card-content">
+                <p class="info-label">Services</p>
+                <h2>Full stack development, API integration, database design, and responsive front-end implementation.
+                </h2>
+                <p class="info-description">From landing pages to dynamic web apps, I can design interfaces, connect
+                    APIs, and shape backend logic into a complete solution.</p>
+            </div>
+        </div>
+        <div class="info-card" id="resume">
+            <div class="info-card-image">
+                <img src="Ashish_Resume.png" alt="" loading="lazy">
+            </div>
+            <div class="info-card-content">
+                <p class="info-label">Resume</p>
+                <h2>Open to internships, freelance work, and full stack roles using modern JavaScript technologies.</h2>
+                <p class="info-description">I bring hands-on project experience across React, Node.js, Express, MongoDB,
+                    and problem-solving with DSA in Java.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="chat-widget" aria-live="polite">
+        <button class="chat-toggle-btn" aria-expanded="false" aria-label="Open chat">
+            <span class="chat-icon" aria-hidden="true">💬</span>
+            <span class="chat-label">Chat</span>
+        </button>
+        <div class="chat-panel" aria-hidden="true">
+            <div class="chat-header">
+                <span>Chat with Ashish</span>
+                <button class="chat-close-btn" aria-label="Close chat">×</button>
+            </div>
+            <div class="chat-messages" role="log" aria-live="polite"></div>
+            <div class="chat-quick-replies" aria-label="Suggested questions"></div>
+            <form class="chat-form">
+                <input type="text" class="chat-input" placeholder="Type a message..." aria-label="Type your message">
+                <button type="submit" class="chat-submit-btn">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
